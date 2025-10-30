@@ -11,7 +11,6 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-
 	<Hotel Rating="5">
 		<Name>Sunrise Inn</Name>
 		<Phone>480-555-1000</Phone>
@@ -23,7 +22,6 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-
 	<Hotel Rating="4">
 		<Name>Moonlight Suites</Name>
 		<Phone>480-555-1001</Phone>
@@ -36,43 +34,6 @@
 			<Zip>85201</Zip>
 		</Address>
 	</Hotel>
-
-	<Hotel>
-		<Name>Desert Oasis</Name>
-		<Phone>602-555-1003</Phone>
-		<Address NearestAirport="PHX">
-			<Number>45</Number>
-			<Street>Apache Blvd</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<Hotel Rating="3">
-		<Name>Copper State Lodge</Name>
-		<Phone>602-555-1004</Phone>
-		<Address>
-			<Number>560</Number>
-			<Street>Mill Ave</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<Hotel Rating="5">
-		<Name>Grand Cactus Hotel</Name>
-		<Phone>623-555-1005</Phone>
-		<Address NearestAirport="PHX">
-			<Number>1</Number>
-			<Street>Central Ave</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
-			<Zip>85004</Zip>
-		</Address>
-	</Hotel>
-
 	<Hotel Rating="4">
 		<Name>Lakeview Inn</Name>
 		<Phone>928-555-1007</Phone>
@@ -84,7 +45,39 @@
 			<Zip>86040</Zip>
 		</Address>
 	</Hotel>
-
+	<Hotel Rating="5">
+		<Name>Grand Cactus Hotel</Name>
+		<Phone>623-555-1005</Phone>
+		<Address NearestAirport="PHX">
+			<Number>1</Number>
+			<Street>Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3">
+		<Name>Copper State Lodge</Name>
+		<Phone>602-555-1004</Phone>
+		<Address>
+			<Number>560</Number>
+			<Street>Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Desert Oasis</Name>
+		<Phone>602-555-1003</Phone>
+		<Address NearestAirport="PHX">
+			<Number>45</Number>
+			<Street>Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
 	<Hotel Rating="2">
 		<Name>Budget Bend</Name>
 		<Phone>520-555-1008</Phone>
@@ -96,7 +89,6 @@
 			<Zip>85719</Zip>
 		</Address>
 	</Hotel>
-
 	<Hotel>
 		<Name>Red Rock Retreat</Name>
 		<Phone>928-555-1009</Phone>
@@ -108,7 +100,6 @@
 			<Zip>86336</Zip>
 		</Address>
 	</Hotel>
-
 	<Hotel Rating="3">
 		<Name>Trailhead Hotel</Name>
 		<Phone>928-555-1010</Phone>
