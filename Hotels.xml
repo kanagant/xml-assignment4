@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+	<Hotel Rating="5">
+		<Name>Sunrise Inn</Name>
+		<Phone>480-555-1000</Phone>
+		<Address NearestAirport="PHX">
+			<Number>123</Number>
+			<Street>Main St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4">
+		<Name>Moonlight Suites</Name>
+		<Phone>480-555-1001</Phone>
+		<Phone>480-555-1002</Phone>
+		<Address NearestAirport="AZA">
+			<Number>789</Number>
+			<Street>Broadway Rd</Street>
+			<City>Mesa</City>
+			<State>AZ</State>
+			<Zip>85201</Zip>
+		</Address>
+	</Hotel>
+</Hotels>

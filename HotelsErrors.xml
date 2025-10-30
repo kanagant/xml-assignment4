@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 5 errors: wrong root, missing Phone, duplicate Name, unclosed Address, wrong element order -->
+<Hotel>
+	<!-- ERROR 1: root should be <Hotels> -->
+	<Hotel Rating="5">
+		<Name>Bad Root Example</Name>
+		<Phone>480-555-2000</Phone>
+		<Address NearestAirport="PHX">
+			<Number>1</Number>
+			<Street>Main</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Missing Phone Example</Name>
+		<!-- ERROR 2: required <Phone> missing -->
+		<Address>
+			<Number>2</Number>
+			<Street>Second</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Duplicate Name Example</Name>
+		<Name>Another Name</Name>
+		<!-- ERROR 3: duplicate <Name> -->
+		<Phone>480-555-2002</Phone>
+		<Address>
+			<Number>3</Number>
+			<Street>Third</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Unclosed Address Example</Name>
+		<Phone>480-555-2003</Phone>
+		<Address>
+			<!-- ERROR 4: never closed -->
+			<Number>4</Number>
+			<Street>Fourth</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Hotel>
+
+	<Hotel>
+		<Phone>480-555-2004</Phone>
+		<Name>Wrong Order Example</Name>
+		<!-- ERROR 5: Name must come BEFORE Phone -->
+		<Address>
+			<Number>5</Number>
+			<Street>Fifth</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
