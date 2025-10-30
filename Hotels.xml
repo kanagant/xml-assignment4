@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
+
+	<Hotel Rating="5">
+		<Name>The Westin Tempe</Name>
+		<Phone>480-555-1011</Phone>
+		<Address NearestAirport="PHX">
+			<Number>11</Number>
+			<Street>Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	
 	<Hotel Rating="5">
 		<Name>Sunrise Inn</Name>
 		<Phone>480-555-1000</Phone>
