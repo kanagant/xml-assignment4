@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-
 	<Hotel Rating="5">
 		<Name>The Westin Tempe</Name>
 		<Phone>480-555-1011</Phone>
@@ -12,7 +11,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-	
+
 	<Hotel Rating="5">
 		<Name>Sunrise Inn</Name>
 		<Phone>480-555-1000</Phone>
@@ -71,18 +70,6 @@
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
-		</Address>
-	</Hotel>
-
-	<Hotel>
-		<Name>Tempe Riverside</Name>
-		<Phone>480-555-1006</Phone>
-		<Address NearestAirport="PHX">
-			<Number>400</Number>
-			<Street>Rio Salado Pkwy</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
 
